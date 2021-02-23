@@ -101,7 +101,7 @@ int **filAray(int rows,int cols){
     //Fill the array
     for(int row=0;row<rows;row++){
         for(int col=0;col<cols;col++){
-            array[row][col]=rand()%90+10;//2 Digit Random Array
+            *(*(array+row)+col)=rand()%90+10;//2 Digit Random Array
         }
     }
     return array;

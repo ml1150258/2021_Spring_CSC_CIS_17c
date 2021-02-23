@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=triangulararrayv2_stub_for_lab
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/triangulararrayv2_stub_for_lab
+CND_ARTIFACT_NAME_Debug=triangulararrayv1_stub_for_lab
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/triangulararrayv1_stub_for_lab
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=triangulararrayv2stubforlab.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/triangulararrayv2stubforlab.tar
+CND_PACKAGE_NAME_Debug=triangulararrayv1stubforlab.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/triangulararrayv1stubforlab.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=triangulararrayv2_stub_for_lab
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/triangulararrayv2_stub_for_lab
+CND_ARTIFACT_NAME_Release=triangulararrayv1_stub_for_lab
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/triangulararrayv1_stub_for_lab
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=triangulararrayv2stubforlab.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/triangulararrayv2stubforlab.tar
+CND_PACKAGE_NAME_Release=triangulararrayv1stubforlab.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/triangulararrayv1stubforlab.tar
 #
 # include compiler specific variables
 #
