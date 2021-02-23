@@ -13,9 +13,9 @@ CND_BUILDDIR=build
 CND_DLIB_EXT=dll
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/triangulararrayv1_stub_for_lab
-OUTPUT_BASENAME=triangulararrayv1_stub_for_lab
-PACKAGE_TOP_DIR=triangulararrayv1stubforlab/
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/triangulararrayv2_stub_for_lab
+OUTPUT_BASENAME=triangulararrayv2_stub_for_lab
+PACKAGE_TOP_DIR=triangulararrayv2stubforlab/
 
 # Functions
 function checkReturnCode
@@ -60,15 +60,15 @@ mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/triangulararrayv1stubforlab/bin"
+makeDirectory "${NBTMPDIR}/triangulararrayv2stubforlab/bin"
 copyFileToTmpDir "${OUTPUT_PATH}.exe" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/triangulararrayv1stubforlab.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/triangulararrayv2stubforlab.tar
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/triangulararrayv1stubforlab.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/triangulararrayv2stubforlab.tar *
 checkReturnCode
 
 # Cleanup

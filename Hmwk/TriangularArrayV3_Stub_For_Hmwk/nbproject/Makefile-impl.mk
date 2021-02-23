@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=TriangularArrayV1_Stub_For_Lab
+PROJECTNAME=TriangularArrayV3_Stub_For_Hmwk
 
 # Active Configuration
 DEFAULTCONF=Debug
