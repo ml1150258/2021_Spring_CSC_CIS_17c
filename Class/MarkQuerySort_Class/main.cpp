@@ -25,8 +25,8 @@ int main(int argc, char** argv) {
     srand(static_cast<unsigned int>(time(0)));
     
     //Declare all variables for this function
-    int size=200;
-    int perLine=20;
+    int size=160;
+    int perLine=16;
     Array1D array1D(size);
     
     //Initialize all known variables
