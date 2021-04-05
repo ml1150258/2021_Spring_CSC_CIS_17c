@@ -43,7 +43,7 @@ int main(int argc, char** argv) {
     lnk1->lnkNext->lnkNext=lnk3;//lnk2->lnkNext
     lnk1->lnkNext->lnkNext->lnkNext=lnk4;
     lnk1->lnkNext->lnkNext->lnkNext->lnkNext=lnk5;
-    lnk1->lnkNext->lnkNext->lnkNext->lnkNext->lnkNext=NULL;
+    lnk1->lnkNext->lnkNextwile ->lnkNext->lnkNext->lnkNext=NULL;
     
     //Display your initial conditions as well as outputs.
     Link *next=lnk1;

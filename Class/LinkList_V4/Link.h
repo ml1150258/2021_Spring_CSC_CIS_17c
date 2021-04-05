@@ -7,9 +7,18 @@
 #ifndef LINK_H
 #define LINK_H
 
-struct Link{
+struct Link
+{
     int data;     //Some type of data
     Link *lnkNext; //Next Link in the chain
+};
+
+class list
+{
+private:
+    
+public:
+    
 };
 
 #endif /* LINK_H */
