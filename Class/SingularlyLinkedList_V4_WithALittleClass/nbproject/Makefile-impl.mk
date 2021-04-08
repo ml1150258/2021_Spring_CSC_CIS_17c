@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=LinkList_V4
+PROJECTNAME=SingularlyLinkedList_V4_WithALittleClass
 
 # Active Configuration
 DEFAULTCONF=Debug

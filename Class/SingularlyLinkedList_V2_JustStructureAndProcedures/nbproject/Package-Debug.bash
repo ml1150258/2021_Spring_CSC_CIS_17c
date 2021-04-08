@@ -7,15 +7,15 @@
 # Macros
 TOP=`pwd`
 CND_PLATFORM=Cygwin-Windows
-CND_CONF=Release
+CND_CONF=Debug
 CND_DISTDIR=dist
 CND_BUILDDIR=build
 CND_DLIB_EXT=dll
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/linklist_v4
-OUTPUT_BASENAME=linklist_v4
-PACKAGE_TOP_DIR=linklistv4/
+OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/singularlylinkedlist_v2_juststructureandprocedures
+OUTPUT_BASENAME=singularlylinkedlist_v2_juststructureandprocedures
+PACKAGE_TOP_DIR=singularlylinkedlistv2juststructureandprocedures/
 
 # Functions
 function checkReturnCode
@@ -60,15 +60,15 @@ mkdir -p ${NBTMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory "${NBTMPDIR}/linklistv4/bin"
+makeDirectory "${NBTMPDIR}/singularlylinkedlistv2juststructureandprocedures/bin"
 copyFileToTmpDir "${OUTPUT_PATH}.exe" "${NBTMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/linklistv4.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/singularlylinkedlistv2juststructureandprocedures.tar
 cd ${NBTMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/linklistv4.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/package/singularlylinkedlistv2juststructureandprocedures.tar *
 checkReturnCode
 
 # Cleanup
